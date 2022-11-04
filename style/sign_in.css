@@ -11,9 +11,8 @@ body{
     margin: 0 auto;
     background-color: #dfc6b4 ;
     height: 513px;
-    margin-top: 22%;
+    margin-top: 200px;
     border-radius: 10px;
-
 }
 .form_auth{
 	margin:10px 10px;
@@ -100,6 +99,9 @@ color:#5b3401;
 	padding-top: 60px;
 
 }
+.text_bottom:hover{
+    cursor: pointer;
+}
 .second{
 	float: right;
 }
@@ -107,9 +109,15 @@ color:#5b3401;
 	width: 574px;
     margin: 0 auto;
     background-color: #dfc6b4 ;
-    height: 513px;
-    margin-top: 22%;
+    height: 610px;
+    margin-top: 100px;
     border-radius: 10px;
+	display: none;
+}
+.arrow_back{
+	font-size: 30px;
+	padding-top: 20px;
+	padding-left: 20px;
 }
 @media (max-width: 575.98px) {
     

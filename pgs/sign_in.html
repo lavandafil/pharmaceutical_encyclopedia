@@ -8,11 +8,12 @@ content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="../style/sign_in.css">
 <link rel="icon" type="image/png" href="../img/logo.png">
+	<script src="https://kit.fontawesome.com/be721a29b4.js" crossorigin="anonymous"></script>
 
 <title>PE | Авторизация</title>
 </head>
 <body>
-	<div class="container">
+	<div class="container" id="auth_container">
 		<form class="form_auth" id="form_auth" onsubmit="submitPage()">
 			<p class="form_header">
 				АВТОРИЗАЦИЯ
@@ -27,7 +28,7 @@ content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=
 				</button>
 
 			</p>
-			<span class="text_bottom">
+			<span class="text_bottom" onclick="regShow()">
 				Зарегистрироваться
 			</span>
 			<span class="text_bottom second">
@@ -35,8 +36,9 @@ content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=
 			</span>
 		</form>
 	</div>
-	<div class="reg_container">
-		
+	<div class="reg_container" id="reg_container">
+		<i class="fa-solid fa-arrow-left arrow_back" onclick="goBack()"></i>
 	</div>
+<script type="text/javascript" src="../scripts/sign_in.js"></script>
 </body>
 </html>
