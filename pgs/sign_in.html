@@ -37,8 +37,49 @@ content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=
 		</form>
 	</div>
 	<div class="reg_container" id="reg_container">
+		<form class="form_reg">
 		<i class="fa-solid fa-arrow-left arrow_back" onclick="goBack()"></i>
+		<p class="form_header reg_header">
+			РЕГИСТРАЦИЯ 
+		</p>
+		<p class="info_field">
+			Ваше Ф.И.О:
+		</p>
+		<p style="text-align: center;">
+			<input type="text" id="name_field" class="name_field">
+		</p>
+		<p class="info_field">
+			Ваша электронная почта:
+		</p>
+		<p style="text-align: center;">
+			<input type="email" id="email_field" class="name_field">
+		</p>
+		<div class="pass_left">
+			<p class="info_field">
+				Введите пароль:
+			</p>
+			<input type="password" id="pass_first" class="pass_first">
+
+		</div>
+		<div class="pass_right">
+			<p class="info_field repeat" >
+				Повторите пароль:
+			</p>
+			<input type="password" id="pass_first" class="pass_second">
+			
+		</div>
+		<p class="info_field info_date">
+			Ваша дата рождения:
+		</p>
+		<input type="date" id="date" class="date">
+		<p style="text-align: center;">
+			<button class="submit_form">
+				ЗАРЕГИСТРИРОВАТЬСЯ 
+			</button>
+		</p>
+		</form>
 	</div>
+
 <script type="text/javascript" src="../scripts/sign_in.js"></script>
 </body>
 </html>
