@@ -280,7 +280,19 @@ color: #5b3401;
 .next:hover{
 	background-color: #c09c80;
 }
-
+.big_submit{
+	width: 250px;
+	margin-top: 0px;
+	background-color: #c0a692;
+	color: #5b3401;
+	border-radius: 5px;
+	border-width: 0px;
+	background-color: #c0a692;
+	font-size: 15px;
+	font-family: 'Playfair Display';
+	font-weight: bold;
+	height: 40px;
+}
 
 
 
