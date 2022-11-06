@@ -211,17 +211,21 @@ margin-top: 35px;
     margin-top: 200px;
     border-radius: 10px;
 
+
 }
 .info_pass{
 text-align: center;
 margin-bottom: 0px;
 padding-top: 25px;
 color: #5b3401;
+font-weight: bold;
+
 }
 .info_pass_sas{
 	text-align: center;
 	margin-top: 0px;
 	color: #5b3401;
+	font-weight: bold;
 }
 
 .name_email{
@@ -275,6 +279,14 @@ color: #5b3401;
 }
 .next:hover{
 	background-color: #c09c80;
+}
+.form_cod{
+	width: 450px;
+    margin: 0 auto;
+    background-color: #dfc6b4 ;
+    height: 235px;
+    margin-top: 200px;
+    border-radius: 10px;
 }
 
 
