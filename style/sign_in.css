@@ -207,7 +207,7 @@ margin-top: 35px;
 	width: 450px;
     margin: 0 auto;
     background-color: #dfc6b4 ;
-    height: 350px;
+    height: 235px;
     margin-top: 200px;
     border-radius: 10px;
 
@@ -223,20 +223,60 @@ color: #5b3401;
 	margin-top: 0px;
 	color: #5b3401;
 }
+
 .name_email{
 	border-width: 0 0 2px 0;
 	background-color: transparent;
-	width: 190px;
-    font-size: 18px;
+	width: 255px;
+    font-size: 15px;
     font-family: 'Playfair Display';
     font-weight: bold;
     color: #5b3401;
     padding-left: 5px;
     caret-color: #5b3401;
     border-color: #5b3401;
-    margin-left: 125px;
-    margin-top: 10px;
+    margin-left: 93px;
+    margin-top: 15px;
+    display: inline;
 }
+.cancel{
+	width: 150px;
+	height: 35px;
+	margin-top: 55px;
+	border-radius: 5px;
+	border-width: 0px;
+	background-color: #c0a692;
+	font-size: 15px;
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    color: #5b3401;
+    transition: background-color 0.2s;
+    margin-left: 25px;
+}
+.cancel:hover{
+	background-color: #c09c80;
+}
+.next{
+	width: 150px;
+	height: 35px;
+	margin-top: 55px;
+	border-radius: 5px;
+	border-width: 0px;
+	background-color: #c0a692;
+	font-size: 15px;
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    color: #5b3401;
+    transition: background-color 0.2s;
+    margin-left: 95px;
+}
+.next:hover{
+	background-color: #c09c80;
+}
+
+
+
+
 @media (max-width: 575.98px) {
     
 }
