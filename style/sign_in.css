@@ -237,7 +237,10 @@ color: #5b3401;
     border-color: #5b3401;
     margin-left: 93px;
     margin-top: 15px;
-    display: inline;
+
+}
+.name_email:focus{
+	outline: none;
 }
 .cancel{
 	width: 150px;
