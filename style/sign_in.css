@@ -242,6 +242,10 @@ color: #5b3401;
 .name_email:focus{
 	outline: none;
 }
+.name_email::placeholder{
+	text-align: center;
+	color: #5b3401;
+}
 .cancel{
 	width: 150px;
 	height: 35px;
