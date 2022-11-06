@@ -13,7 +13,7 @@ content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=
 <title>PE | Авторизация</title>
 </head>
 <body>
-	<div class="container" id="auth_container">
+	<div class="container" id="auth_container" style="display:none">
 		<form class="form_auth" id="form_auth" onsubmit="submitPage()">
 			<p class="form_header">
 				АВТОРИЗАЦИЯ
@@ -80,5 +80,23 @@ content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=
 		</form>
 	</div>
 <script type="text/javascript" src="../scripts/sign_in.js"></script>
+<div class="pass_problem">
+	<form class="form_problem">
+		<p class="info_pass">
+			ВОССТАНОВЛЕНИЕ
+		</p>
+		<p class="info_pass_sas">
+			ПАРОЛЯ
+		</p>
+		<div class="form_prob">
+				<p class="info_passw">
+					Введите электронную почту
+				</p>
+				<input type="email" id="name_email" class="name_email">
+
+			</div>
+	</form>
+	
+</div>
 </body>
 </html>
