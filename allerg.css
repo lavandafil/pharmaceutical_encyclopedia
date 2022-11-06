@@ -1,0 +1,48 @@
+body{
+  background: #F5F5F5;
+  color: #000000;
+  font-family: Playfair Display;
+}
+#container {
+background: white;
+}
+
+#header {
+  background: #C1ABA4;
+  float: top;
+  width: auto;
+  height: 60px;
+}
+#header h1{
+  z-index: 1;
+  text-align: center;
+}
+#header button{
+  z-index: 2;
+  background-color: #C1ABA4;
+  border-color: #C1ABA4;
+}
+
+#content b{
+  font-size: 16px;
+}
+#RightColumn{
+  margin-right: 10%;
+  float: right;
+  text-align: center;
+  font-family: Playfair Display;
+}
+#LeftColumn{
+  margin-left: 10%;
+  float: left;
+  text-align: center;
+  font-family: Playfair Display;
+}
+#LeftColumn img{
+  height: 200px;
+  width: 200px;
+}
+#RightColumn img{
+  height: 200px;
+  width: 200px;
+}
