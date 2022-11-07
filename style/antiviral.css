@@ -1,7 +1,7 @@
 body{
   background: #F5F5F5;
   color: #000000;
-  font-family: Trebuchet Ms, Arial, Times New Roman;
+  font-family: Playfair Display;
 }
 #container {
 background: white;
@@ -30,13 +30,13 @@ background: white;
   margin-right: 10%;
   float: right;
   text-align: center;
-  font-family: Trebuchet Ms, Arial, Times New Roman;
+  font-family: Playfair Display;
 }
 #LeftColumn{
   margin-left: 10%;
   float: left;
   text-align: center;
-  font-family: Trebuchet Ms, Arial, Times New Roman;
+  font-family: Playfair Display;
 }
 #LeftColumn img{
   height: 200px;

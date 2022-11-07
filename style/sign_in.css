@@ -211,21 +211,17 @@ margin-top: 35px;
     margin-top: 200px;
     border-radius: 10px;
 
-
 }
 .info_pass{
 text-align: center;
 margin-bottom: 0px;
 padding-top: 25px;
 color: #5b3401;
-font-weight: bold;
-
 }
 .info_pass_sas{
 	text-align: center;
 	margin-top: 0px;
 	color: #5b3401;
-	font-weight: bold;
 }
 
 .name_email{
@@ -245,6 +241,10 @@ font-weight: bold;
 }
 .name_email:focus{
 	outline: none;
+}
+.name_email::placeholder{
+	text-align: center;
+	color: #5b3401;
 }
 .cancel{
 	width: 150px;
@@ -280,15 +280,19 @@ font-weight: bold;
 .next:hover{
 	background-color: #c09c80;
 }
-.form_cod{
-	width: 450px;
-    margin: 0 auto;
-    background-color: #dfc6b4 ;
-    height: 235px;
-    margin-top: 200px;
-    border-radius: 10px;
+.big_submit{
+	width: 250px;
+	margin-top: 0px;
+	background-color: #c0a692;
+	color: #5b3401;
+	border-radius: 5px;
+	border-width: 0px;
+	background-color: #c0a692;
+	font-size: 15px;
+	font-family: 'Playfair Display';
+	font-weight: bold;
+	height: 40px;
 }
-
 
 
 
