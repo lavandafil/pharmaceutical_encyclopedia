@@ -1,21 +1,23 @@
 html{
+  width: auto;
+  height: auto;
 	background-color: white;
 }
 body{
-	width: auto;
-	height: auto;
+  width: auto;
+height: auto;
 }
 div{
-	height: auto;
+  height: 1150px;
 }
-.sser{background-repeat: no-repeat;
+.sser{
+  background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-	
 }
 .farm2{
 	font-size: 80px;
@@ -41,9 +43,7 @@ background-image: url(../img/pict/phon.jpg);
 	background-repeat: no-repeat;
 	background-position: center ;
 	background-attachment: scroll;
-	
-  
- 
+  margin-bottom: 50px;
 }
 
 .farm3{
@@ -58,21 +58,24 @@ background-image: url(../img/pict/phon.jpg);
   background-size: cover;
 }
 .farm3 p{
+  width: 1000px;
+  text-align: center;
 	background-image: url(../img/pict/bel.jpg);
 	 background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: scroll;
+  background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  border-radius: 80px;
+  border-radius: 10px;
 }
 .button1{
 	height: 25px;
 	width: 50px;
 }
 .farm4{
+  max-width: 100%;
 	background-image: url(../img/pict/ons.jpg);
 	 background-repeat: no-repeat;
   background-position: center center;
