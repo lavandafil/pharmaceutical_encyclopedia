@@ -11,17 +11,13 @@ background: white;
   background: #C1ABA4;
   float: top;
   width: auto;
-  height: 60px;
+  height: auto;
 }
 #header h1{
   z-index: 1;
   text-align: center;
 }
-#header button{
-  z-index: 2;
-  background-color: #C1ABA4;
-  border-color: #C1ABA4;
-}
+
 
 #content b{
   font-size: 16px;
@@ -39,10 +35,11 @@ background: white;
   font-family: Playfair Display;
 }
 #LeftColumn img{
-  height: 200px;
-  width: 200px;
+
+  height: 250px;
+  width: 250px;
 }
 #RightColumn img{
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
 }
