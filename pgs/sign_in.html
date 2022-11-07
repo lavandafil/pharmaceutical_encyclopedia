@@ -13,7 +13,7 @@ content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=
 <title>PE | Авторизация</title>
 </head>
 <body>
-	<div class="container" id="auth_container" style="display:none">
+	<div class="container" id="auth_container" >
 		<form class="form_auth" id="form_auth" onsubmit="submitPage()">
 			<p class="form_header">
 				АВТОРИЗАЦИЯ
@@ -31,7 +31,7 @@ content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=
 			<span class="text_bottom" onclick="regShow()">
 				Зарегистрироваться
 			</span>
-			<span class="text_bottom second">
+			<span class="text_bottom second" onclick="forgetPass()">
 				Забыли пароль?
 			</span>
 		</form>
@@ -79,8 +79,7 @@ content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=
 			</p>
 		</form>
 	</div>
-<script type="text/javascript" src="../scripts/sign_in.js"></script>
-<div class="pass_problem">
+<div class="pass_problem" style="display: none" id="pass_trouble">
 	<form class="form_problem">
 		<p class="info_pass">
 			ВОССТАНОВЛЕНИЕ
@@ -88,25 +87,35 @@ content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=
 		<p class="info_pass_sas">
 			ПАРОЛЯ
 		</p>
-		<div class="form_prob">
+		<div class="form_prob" id="form_prob" >
 				
-				<input placeholder="Введите электронную почту" type="email" id="name_email" class="name_email">
-				<button class="cancel" id="cencel_sas">
+				<input placeholder="Введите электронную почту" type="email" id="name_email" class="name_email" aria-required>
+				<button class="cancel" id="cancel_sas" onclick="toBack()">
 					Отмена
 				</button>
-				<button class="next" id="next_sas">
+				<button class="next" id="next_sas" onclick="continueReset(); return false;">
 					Продолжить
 				</button>
 			</div>
-			<p>
+		<div class="form_res" id="form_reset" style="display: none">
+			<p class="info_field" style="margin-bottom: 0px; font-size: 14px;">
 				На электронную почту отправлен код.
 			</p>
-			<p>
+			<p class="info_field" style="margin-top: 0px; font-size: 14px;">
 				Введите его,чтобы продолжить:
 			</p>
-			<input type="cod" id="name_cod" class="name_cod">
-
+			<input type="text" id="name_cod" class="name_field" style="width: 350px; margin-left: 35px;" required>
+			<p style="text-align: center"><button type="submit" onsubmit="showLast(); return false;" class="big_submit">Продолжить</button></p>
+		</div>
+		<div class="reset_pass" id="last_et" style="display: none;">
+			<p class="info_field" style="margin-top: 10px;">Введите новый пароль:</p>
+			<input type="password" id="new_pass" class="name_field" style="width: 350px; margin-left: 35px;" required>
+			<p class="info_field" style="margin-top: 10px;">Введите новый пароль повторно:</p>
+			<input type="password" id="new_again" class="name_field" style="width: 350px; margin-left: 35px;" required>
+			<p style="text-align: center"><button type="submit" onsubmit="alert('Success!'); location.reload();" class="big_submit">Восстановить</button></p>
+		</div>
 	</form>
+	<script type="text/javascript" src="../scripts/sign_in.js"></script>
 </div>
 </body>
 </html>
