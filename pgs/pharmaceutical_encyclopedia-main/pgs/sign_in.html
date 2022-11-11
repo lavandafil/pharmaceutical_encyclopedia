@@ -21,8 +21,9 @@ content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=
 
 			
 			<p style="text-align: center;">
-				<input type="text" id="login_field" class="login_field" placeholder="введите логин">
-				<input type="password" id="pass_field" placeholder="введите пароль" class="pass_field">
+				<input type="text" id="login_field" class="login_field" placeholder="введите логин" required>
+				<input type="password" id="pass_field" placeholder="введите пароль" class="pass_field" required>
+				<i class="fa-regular fa-eye eye" onclick="showPass()" id="show_pass"></i>
 				<button class="submit_form" id="submit_form">
 					АВТОРИЗОВАТЬСЯ
 				</button>
@@ -46,34 +47,37 @@ content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=
 				Ваше Ф.И.О:
 			</p>
 			<p style="text-align: center;">
-				<input type="text" id="name_field" class="name_field">
+				<input type="text" id="name_field" class="name_field" required>
 			</p>
 			<p class="info_field">
 				Ваша электронная почта:
 			</p>
 			<p style="text-align: center;">
-				<input type="email" id="email_field" class="name_field">
+				<input type="email" id="email_field" class="name_field" required>
 			</p>
 			<div class="pass_left">
 				<p class="info_field">
 					Введите пароль:
 				</p>
-				<input type="password" id="pass_first" class="pass_first">
+				<input type="password" id="pass_first" class="pass_first" required>
 
 			</div>
 			<div class="pass_right">
 				<p class="info_field repeat" >
 					Повторите пароль:
 				</p>
-				<input type="password" id="pass_second" class="pass_second">
-
+				<input type="password" id="pass_second" class="pass_second" required>
 			</div>
 			<p class="info_field info_date">
 				Ваша дата рождения:
 			</p>
-			<input type="date" id="date" class="date">
+			<input type="date" id="date" class="date" required>
+			<div class="checkb_cont">
+				<input type="checkbox" id="checkb" required class="checkb">
+				<label for="checkb">Я подтверждаю свое согласие с правилами проекта и условиями его использования</label>
+			</div>
 			<p style="text-align: center;">
-				<button class="submit_form">
+				<button class="submit_form part_2">
 					ЗАРЕГИСТРИРОВАТЬСЯ
 				</button>
 			</p>
